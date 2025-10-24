@@ -2,21 +2,13 @@ import ComponentIframe from "@/app/(site)/[slug]/components/component-iframe";
 
 import React from "react";
 import Link from "next/link";
-import {
-  ExternalLinkIcon,
-  FullscreenIcon,
-  GithubIcon,
-  Monitor,
-  Smartphone,
-  Tablet
-} from "lucide-react";
+import { ExternalLinkIcon, FullscreenIcon, GithubIcon } from "lucide-react";
 import { Example } from "@/types/example";
 import CodeDialog from "@/app/(site)/[slug]/components/code-dialog";
 import { Button } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import data from "../data.json";
 import ExamplePagination from "@/app/(site)/[slug]/components/pagination";
-import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import BreakpointChanger from "@/app/(site)/[slug]/components/breakpoint-changer";
 
 export default function ExampleDetail({ example }: { example: Example }) {
@@ -29,7 +21,7 @@ export default function ExampleDetail({ example }: { example: Example }) {
       <header className="border-b bg-linear-to-t from-transparent to-black/10 py-6 lg:py-10 dark:to-white/15">
         <div className="container mx-auto flex flex-col items-start justify-between space-y-4 px-4 lg:flex-row lg:items-center lg:space-y-0">
           <div className="space-y-3 lg:space-y-2">
-            <h1 className="text-3xl font-bold lg:text-4xl">{example.meta.title}</h1>
+            <h1 className="font-heading text-3xl lg:text-4xl">{example.meta.title}</h1>
             {example.info.description && (
               <p className="text-muted-foreground max-w-3xl text-lg">{example.info.description}</p>
             )}

@@ -16,7 +16,7 @@ export default function Page() {
           <a
             href={lastExample.href}
             className="group bg-muted inline-flex items-center justify-center gap-2 rounded-full border p-1 pr-3">
-            <Badge className="rounded-full text-[10px] tracking-widest">NEW EXAMPLE</Badge>
+            <Badge className="rounded-full text-[10px] tracking-widest">NEW </Badge>
             <p className="flex items-center gap-1 text-xs">
               <span>{lastExample.meta.title}</span>
               <svg
@@ -59,26 +59,44 @@ export default function Page() {
       </section>
 
       <div className="container mx-auto space-y-10 px-4">
-        <div className="block lg:hidden">
-          <figure className="relative aspect-video w-full">
-            <Image
-              src={`${process.env.BASE_URL}/${data[0].info.cover_image}`}
-              fill
-              alt={`shadcn examples ${data[0].meta.title}`}
-            />
-          </figure>
-        </div>
-
-        <div className="hidden lg:block">
-          <ComponentIframe id={data[0].href} url={`/demo/${data[0].href}`} />
-        </div>
-
-        <div className="hidden lg:block">
-          <ComponentIframe id={data[1].href} url={`/demo/${data[1].href}`} />
-        </div>
-
-        <div className="hidden lg:block">
-          <ComponentIframe id={data[2].href} url={`/demo/${data[2].href}`} />
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 xl:grid-cols-3">
+          {data
+            .filter((e) =>
+              [
+                "activity-feed",
+                "add-product-form",
+                "admin-dashboard",
+                "ai-chat",
+                "authentication",
+                "blog-detail-page",
+                "chat-app",
+                "checkout-page",
+                "coming-soon-page",
+                "contact-page",
+                "mail-app",
+                "multi-step-form",
+                "onboarding-flow",
+                "pricing-tables",
+                "profile-page",
+                "tasks"
+              ].includes(e.href)
+            )
+            .map((item, key) => (
+              <Link
+                key={key}
+                href={`/${item.href}`}
+                className="group relative aspect-video w-full overflow-hidden rounded-md border">
+                <Image
+                  src={`${process.env.BASE_URL}/example-images/${item.href}.png`}
+                  className="w-full bg-top object-cover hover:border-slate-400"
+                  fill
+                  alt={`shadcn examples ${item.meta.title}`}
+                />
+                <div className="bg-background/40 absolute inset-0 grid place-items-center font-medium opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
+                  {item.meta.title}
+                </div>
+              </Link>
+            ))}
         </div>
       </div>
     </>

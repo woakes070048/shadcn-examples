@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Cal_Sans as FontHeading, Plus_Jakarta_Sans as FontSans } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import GoogleAnalyticsInit from "@/lib/ga";
 import { ThemeProvider } from "next-themes";
 
-const geist = Geist({
+const fontSans = FontSans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"]
+  variable: "--font-sans"
+});
+
+const fontHeading = FontHeading({
+  subsets: ["latin"],
+  variable: "--font-heading",
+  weight: "400"
 });
 
 export const metadata: Metadata = {
@@ -23,7 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body suppressHydrationWarning className={`${geist.className} `}>
+      <body
+        suppressHydrationWarning
+        className={`${fontSans.variable} ${fontHeading.variable} font-sans antialiased`}>
         <ThemeProvider defaultTheme="light" attribute="class" disableTransitionOnChange>
           {children}
         </ThemeProvider>
