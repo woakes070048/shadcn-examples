@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     changeFrequency: "daily",
     priority: 0.5,
-    images: [`${process.env.BASE_URL}/${item.info.cover_image}`]
+    images: [`${process.env.BASE_URL}/example-images/${item.href}.png`]
   }));
 
   return [
