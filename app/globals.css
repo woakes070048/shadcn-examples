@@ -136,4 +136,8 @@
     scrollbar-width: thin;
     scrollbar-color: var(--border) transparent;
   }
+  .backy  {
+    background-image: linear-gradient(153.68deg, #17191D 0%, #0C152C
+    45.82%);
+  }
 }

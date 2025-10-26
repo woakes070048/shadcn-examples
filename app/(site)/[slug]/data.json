@@ -34,7 +34,7 @@
     "href": "admin-dashboard",
     "meta": {
       "title": "Admin Dashboard",
-      "description": "A standard clean admin dashboard template. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A standard clean admin dashboard template. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -53,7 +53,7 @@
     "href": "ai-chat",
     "meta": {
       "title": "AI Chat",
-      "description": "Chat ui and components for ai apps. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Chat ui and components for ai apps. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -73,7 +73,7 @@
     "href": "authentication",
     "meta": {
       "title": "Authentication",
-      "description": "Authentication pages. Login page, sign-in page and more. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Authentication pages. Login page, sign-in page and more. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -88,7 +88,7 @@
     "href": "blog-detail-page",
     "meta": {
       "title": "Blog Detail Page",
-      "description": "A blog post detail is a page that displays a single blog article with its content, author, and related information. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A blog post detail is a page that displays a single blog article with its content, author, and related information. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -107,7 +107,7 @@
     "href": "blog-page",
     "meta": {
       "title": "Blog Page",
-      "description": "A blog page is a section of a website where articles, updates, or insights are regularly published. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A blog page is a section of a website where articles, updates, or insights are regularly published. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -140,7 +140,7 @@
     "href": "changelog-page",
     "meta": {
       "title": "Changelog Page",
-      "description": "A changelog page lists updates, fixes, and new features of a product over time. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A changelog page lists updates, fixes, and new features of a product over time. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -155,7 +155,7 @@
     "href": "chat-app",
     "meta": {
       "title": "Chat App",
-      "description": "A chat app template is a ready-made ui for quickly creating messaging apps. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A chat app template is a ready-made ui for quickly creating messaging apps. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -190,7 +190,7 @@
     "href": "coming-soon-page",
     "meta": {
       "title": "Coming Soon Page",
-      "description": "A coming soon page announces a future website or product launch. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A coming soon page announces a future website or product launch. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -237,7 +237,7 @@
     "href": "cv-template",
     "meta": {
       "title": "Cv Template",
-      "description": "They are pre-designed ui templates that help users create professional resumes quickly and consistently. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "They are pre-designed ui templates that help users create professional resumes quickly and consistently. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -269,7 +269,7 @@
     "href": "email-templates",
     "meta": {
       "title": "Email Templates",
-      "description": "Email templates using Resend are pre-designed email layouts integrated with the Resend API for sending and managing emails programmatically. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Email templates using Resend are pre-designed email layouts integrated with the Resend API for sending and managing emails programmatically. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -285,7 +285,7 @@
     "href": "empty-states",
     "meta": {
       "title": "Empty States",
-      "description": "Empty states are UI screens displayed when there is no data, content, or results to show. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Empty states are UI screens displayed when there is no data, content, or results to show. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -301,7 +301,7 @@
     "href": "error-pages",
     "meta": {
       "title": "Error Pages",
-      "description": "Error pages (404, 503, and more) are pages displayed when a website encounters issues like missing content, server errors, or restricted access. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Error pages (404, 503, and more) are pages displayed when a website encounters issues like missing content, server errors, or restricted access. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -347,7 +347,7 @@
     "href": "file-manager-admin-dashboard",
     "meta": {
       "title": "File Manager Dashboard",
-      "description": "It is an admin dashboard template used to organize, access and manage files and folders. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "It is an admin dashboard template used to organize, access and manage files and folders. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -398,7 +398,7 @@
     "href": "kanban-board",
     "meta": {
       "title": "Kanban Board",
-      "description": "A Kanban board is a visual workflow management tool that helps track tasks through stages like To Do, In Progress, and Done. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A Kanban board is a visual workflow management tool that helps track tasks through stages like To Do, In Progress, and Done. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -428,7 +428,7 @@
     "href": "multi-step-form",
     "meta": {
       "title": "Multi Step Form",
-      "description": "A multi-step form is a form divided into multiple steps or sections to simplify data entry and improve user experience. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A multi-step form is a form divided into multiple steps or sections to simplify data entry and improve user experience. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -443,7 +443,7 @@
     "href": "music-app",
     "meta": {
       "title": "Music App",
-      "description": "Music app is an app ui template used to stream, play and manage audio tracks. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Music app is an app ui template used to stream, play and manage audio tracks. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -473,7 +473,7 @@
     "href": "onboarding-flow",
     "meta": {
       "title": "Onboarding Flow",
-      "description": "Step-by-step screens that collect information from users. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Step-by-step screens that collect information from users. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -488,7 +488,7 @@
     "href": "payment-admin-dashboard",
     "meta": {
       "title": "Payment Dashboard",
-      "description": "It is a dashboard UI template used to manage, track and edit invoices and payments. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "It is a dashboard UI template used to manage, track and edit invoices and payments. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -507,7 +507,7 @@
     "href": "playground",
     "meta": {
       "title": "Playground",
-      "description": "Create an app that people can interact with with the Playground template. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Create an app that people can interact with with the Playground template. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -538,7 +538,7 @@
     "href": "pos-app",
     "meta": {
       "title": "Point of Sale (POS) ",
-      "description": "It is a template used to process sales, payments, and manage transactions. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "It is a template used to process sales, payments, and manage transactions. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -553,7 +553,7 @@
     "href": "pricing-tables",
     "meta": {
       "title": "Pricing Tables",
-      "description": "A pricing table displays different product or service plans with their features and costs. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A pricing table displays different product or service plans with their features and costs. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -568,7 +568,7 @@
     "href": "product-detail-page",
     "meta": {
       "title": "Product Detail Page",
-      "description": "A chat app template is a ready-made ui for quickly creating messaging apps. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A chat app template is a ready-made ui for quickly creating messaging apps. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -586,7 +586,7 @@
     "href": "product-list",
     "meta": {
       "title": "Product List",
-      "description": "A template consisting of a panel for listing and filtering products. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A template consisting of a panel for listing and filtering products. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -604,7 +604,7 @@
     "href": "profile-page",
     "meta": {
       "title": "Profile Page",
-      "description": "Create profile ui for users. Add forms so they can update their information. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Create profile ui for users. Add forms so they can update their information. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -619,7 +619,7 @@
     "href": "projects-list",
     "meta": {
       "title": "Projects List",
-      "description": "UI component that lists projects. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "UI component that lists projects. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -635,7 +635,7 @@
     "href": "rich-text-editor",
     "meta": {
       "title": "Rich Text Editor",
-      "description": "A rich text editor is a tool that allows users to create and format text with styles, links, and media. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A rich text editor is a tool that allows users to create and format text with styles, links, and media. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -667,7 +667,7 @@
     "href": "roles-permissions",
     "meta": {
       "title": "Roles & Permissions",
-      "description": "A page used to manage user access levels, roles, and authorization settings. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A page used to manage user access levels, roles, and authorization settings. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -699,7 +699,7 @@
     "href": "search-results",
     "meta": {
       "title": "Search Results",
-      "description": "A page that displays content or items that match the user's search query. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A page that displays content or items that match the user's search query. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -745,7 +745,7 @@
     "href": "sortable-cards",
     "meta": {
       "title": "Sortable Cards",
-      "description": "Sortable cards are interactive UI elements that can be rearranged by dragging and dropping. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Sortable cards are interactive UI elements that can be rearranged by dragging and dropping. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -777,7 +777,7 @@
     "href": "tasks",
     "meta": {
       "title": "Tasks",
-      "description": "Task list. List and filter tasks. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Task list. List and filter tasks. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -822,7 +822,7 @@
     "href": "todo-list-app",
     "meta": {
       "title": "Todo List App",
-      "description": "A to-do list app is an application for creating, organizing, and tracking tasks. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "A to-do list app is an application for creating, organizing, and tracking tasks. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
@@ -838,7 +838,7 @@
     "href": "two-step-verification",
     "meta": {
       "title": "Two Step Verification",
-      "description": "Two-step verification is a security process that requires two authentication methods to verify a user’s identity. Built with Tailwind CSS, Shadcn/ui, Radix ui, Next.js, React, Vue.js. Typescript compatible.",
+      "description": "Two-step verification is a security process that requires two authentication methods to verify a user’s identity. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
