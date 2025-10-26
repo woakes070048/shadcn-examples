@@ -816,7 +816,40 @@
       "framework": "",
       "demo_url": "",
       "last_updated": ""
-    }
+    },
+    "isComing": true
+  },
+  {
+    "href": "note-app",
+    "meta": {
+      "title": "Note App",
+      "description": "It is an application for creating, organizing and managing notes and ideas. React timeline component built with Tailwind CSS, Shadcn UI & Radix UI.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "It is an application for creating, organizing and managing notes and ideas.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
+  },
+  {
+    "href": "sticky-notes",
+    "meta": {
+      "title": "Sticky Notes",
+      "description": "It's an app for creating and organizing digital sticky notes for reminders and quick thoughts. React timeline component built with Tailwind CSS, Shadcn UI & Radix UI.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "It's an app for creating and organizing digital sticky notes for reminders and quick thoughts.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
   },
   {
     "href": "todo-list-app",
@@ -860,6 +893,22 @@
     "info": {
       "cover_image": "",
       "description": "An updates page is a page that displays the latest news, changes, or feature releases for users.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
+  },
+  {
+    "href": "user-cards",
+    "meta": {
+      "title": "User Cards",
+      "description": "They are user interface components that display brief user information such as name, avatar, and role. Built with Next.js, React, Tailwind CSS, shadcn/ui and radix ui. Typescript included.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "They are user interface components that display brief user information such as name, avatar, and role.",
       "framework": "",
       "demo_url": "",
       "last_updated": ""
