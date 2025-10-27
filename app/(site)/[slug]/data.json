@@ -85,6 +85,22 @@
     }
   },
   {
+    "href": "bento-grid",
+    "meta": {
+      "title": "Bento Grid",
+      "description": "It is a layout style that arranges content blocks of different sizes in a visually balanced grid. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "It is a layout style that arranges content blocks of different sizes in a visually balanced grid.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
+  },
+  {
     "href": "blog-detail-page",
     "meta": {
       "title": "Blog Detail Page",
@@ -467,7 +483,8 @@
       "framework": "",
       "demo_url": "",
       "last_updated": ""
-    }
+    },
+    "isComing": true
   },
   {
     "href": "onboarding-flow",
@@ -504,6 +521,22 @@
     ]
   },
   {
+    "href": "profile-cards",
+    "meta": {
+      "title": "Profile Cards",
+      "description": "It is a ui component that displays important user details such as name, photo, and role in a compact format. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "playground.png",
+      "description": "It is a ui component that displays important user details such as name, photo, and role in a compact format.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
+  },
+  {
     "href": "playground",
     "meta": {
       "title": "Playground",
@@ -512,7 +545,7 @@
     },
     "info": {
       "cover_image": "playground.png",
-      "description": "",
+      "description": "Create an app that people can interact with with the Playground template.",
       "framework": "",
       "demo_url": "",
       "last_updated": ""
@@ -630,6 +663,22 @@
       "last_updated": ""
     },
     "isComing": false
+  },
+  {
+    "href": "restaurant-menu",
+    "meta": {
+      "title": "Restaurant Menu",
+      "description": "It is a digital template that displays available food and beverage products along with their descriptions and prices. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "It is a digital template that displays available food and beverage products along with their descriptions and prices.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
   },
   {
     "href": "rich-text-editor",
