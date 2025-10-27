@@ -1,18 +1,22 @@
 [
   {
-    "href": "activity-feed",
+    "href": "admin-dashboard",
     "meta": {
-      "title": "Activity Feed",
-      "description": "Track events, user actions, and updates occurring in the app. React event stream component built with Tailwind CSS, Shadcn UI, and Radix UI.",
+      "title": "Admin Dashboard",
+      "description": "A standard clean admin dashboard template. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
     "info": {
-      "cover_image": "",
-      "description": "Track events, user actions, and updates occurring in the app.",
+      "cover_image": "admin-dashboard.png",
+      "description": "A standard clean admin dashboard template.",
       "framework": "",
       "demo_url": "",
       "last_updated": ""
-    }
+    },
+    "similars": [
+      "file-manager-admin-dashboard",
+      "payment-admin-dashboard"
+    ]
   },
   {
     "href": "add-product-form",
@@ -31,23 +35,19 @@
     "isNew": true
   },
   {
-    "href": "admin-dashboard",
+    "href": "activity-feed",
     "meta": {
-      "title": "Admin Dashboard",
-      "description": "A standard clean admin dashboard template. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
+      "title": "Activity Feed",
+      "description": "Track events, user actions, and updates occurring in the app. React event stream component built with Tailwind CSS, Shadcn UI, and Radix UI.",
       "image": ""
     },
     "info": {
-      "cover_image": "admin-dashboard.png",
-      "description": "A standard clean admin dashboard template.",
+      "cover_image": "",
+      "description": "Track events, user actions, and updates occurring in the app.",
       "framework": "",
       "demo_url": "",
       "last_updated": ""
-    },
-    "similars": [
-      "file-manager-admin-dashboard",
-      "payment-admin-dashboard"
-    ]
+    }
   },
   {
     "href": "ai-chat",

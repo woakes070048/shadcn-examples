@@ -1,6 +1,4 @@
 import { ImageResponse } from "next/og";
-import { readFile } from "node:fs/promises";
-import { join } from "node:path";
 import { Example } from "@/types/example";
 import data from "@/app/(site)/[slug]/data.json";
 
@@ -8,8 +6,6 @@ export const size = {
   width: 1200,
   height: 630
 };
-
-export const contentType = "image/png";
 
 const getFont = async (url: URL) => {
   const res = await fetch(url);
@@ -27,7 +23,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
 
   const interBold = await getFont(new URL("fonts/inter/Inter_28pt-Bold.ttf", process.env.BASE_URL));
 
-  const logoSrc = await fetch(new URL("logo.png", process.env.BASE_URL)).then((res) =>
+  const logoSrc = await fetch(new URL("logo-light.png", process.env.BASE_URL)).then((res) =>
     res.arrayBuffer()
   );
 
@@ -47,7 +43,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
           justifyContent: "center",
           flexDirection: "column",
           flexWrap: "nowrap",
-          background: "linear-gradient(46deg, rgba(0, 0, 0, 1) 0%, rgba(94, 3, 82, 1) 100%) "
+          backgroundImage: "linear-gradient(to bottom, #dbf4ff, #fff1f1)"
         }}>
         <div
           style={{
@@ -71,34 +67,35 @@ export default async function Image({ params }: { params: Promise<{ slug: string
             left: 30,
             gap: 20
           }}>
-          <div tw="invert bg-white p-2 rounded-lg flex">
+          <div tw="invert bg-white p-3 rounded-lg flex bg-black">
             <img width={36} height={36} tw="object-cover" src={logoBase64} />
           </div>
-          <span style={{ fontSize: 32 }} tw="text-white/80">
-            shadcnexamples.com
-          </span>
+          <span style={{ fontSize: 32 }}>shadcnexamples.com</span>
         </div>
         <div
-          tw="font-bold text-6xl mb-8"
+          tw="font-bold text-8xl mb-10"
           style={{
             display: "flex",
             marginTop: 30,
             whiteSpace: "pre-wrap",
-            color: "white"
+            backgroundImage: "linear-gradient(90deg, rgb(121, 40, 202), rgb(255, 0, 128))",
+            backgroundClip: "text",
+            WebkitBackgroundClip: "text",
+            color: "transparent"
           }}>
           <b>{exampleData.meta.title}</b>
         </div>
         <div
-          tw="text-white/70 text-2xl max-w-3xl"
+          tw="text-black/70 text-3xl max-w-6xl"
           style={{
             display: "flex",
-            fontStyle: "normal",
+            fontWeight: 200,
             whiteSpace: "pre-wrap"
           }}>
           <b>{exampleData.info.description}</b>
         </div>
         <div tw="ml-3 mt-14 flex ">
-          <a tw="flex gap-3 items-center justify-center bg-white rounded-lg px-7 py-4 text-base font-medium text-xl text-black">
+          <a tw="flex gap-3 items-center justify-center bg-black rounded-lg px-8 py-6 text-base font-medium text-3xl text-white">
             Preview Example <span style={{ display: "flex", marginLeft: "10px" }}>&#62;</span>
           </a>
         </div>
