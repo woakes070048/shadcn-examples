@@ -183,8 +183,30 @@
     },
     "similars": [
       "ai-chat",
+      "chat-ui-widgets",
       "mail-app"
     ]
+  },
+  {
+    "href": "chat-ui-widgets",
+    "meta": {
+      "title": "Chat UI Widgets",
+      "description": "Elements and ui components for chat apps. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "Elements and ui components for chat apps.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "similars": [
+      "chat-app",
+      "ai-chat",
+      "mail-app"
+    ],
+    "isComing": true
   },
   {
     "href": "checkout-page",
@@ -250,9 +272,9 @@
     "isNew": true
   },
   {
-    "href": "cv-template",
+    "href": "resume-cv-template",
     "meta": {
-      "title": "Cv Template",
+      "title": "Resume/CV Template",
       "description": "They are pre-designed ui templates that help users create professional resumes quickly and consistently. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
       "image": ""
     },
@@ -275,6 +297,22 @@
     "info": {
       "cover_image": "",
       "description": "Pre-designed dashboard page layouts.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
+  },
+  {
+    "href": "directory-list",
+    "meta": {
+      "title": "Directory list",
+      "description": "A directory list is a structured display of items, users, or organizations organized for easy browsing and access. Built with Next.js, React, Tailwind CSS, shadcn/ui and radix ui. Typescript included.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "A directory list is a structured display of items, users, or organizations organized for easy browsing and access.",
       "framework": "",
       "demo_url": "",
       "last_updated": ""
@@ -360,6 +398,22 @@
     }
   },
   {
+    "href": "file-upload-form",
+    "meta": {
+      "title": "File Upload Form",
+      "description": "A file upload form is a component that allows users to select and submit files from their device. Built with Next.js, React, Tailwind CSS, shadcn/ui and radix ui. Typescript included.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "A file upload form is a component that allows users to select and submit files from their device.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
+  },
+  {
     "href": "file-manager-admin-dashboard",
     "meta": {
       "title": "File Manager Dashboard",
@@ -424,6 +478,22 @@
       "demo_url": "",
       "last_updated": ""
     }
+  },
+  {
+    "href": "login-pages",
+    "meta": {
+      "title": "Login Pages",
+      "description": "These are authentication forms and screens where users enter their credentials to access their accounts. Built with Tailwind CSS, Shadcn UI, Radix ui, Next.js, React, Vue.js and Svelte. Typescript compatible.",
+      "image": ""
+    },
+    "info": {
+      "cover_image": "",
+      "description": "These are authentication forms and screens where users enter their credentials to access their accounts.",
+      "framework": "",
+      "demo_url": "",
+      "last_updated": ""
+    },
+    "isComing": true
   },
   {
     "href": "mail-app",
