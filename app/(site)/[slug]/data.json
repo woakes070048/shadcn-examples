@@ -288,7 +288,7 @@
     "isComing": true
   },
   {
-    "href": "dashboard-layouts",
+    "href": "dashboard-page-layouts",
     "meta": {
       "title": "Dashboard Layouts",
       "description": "Pre-designed responsive dashboard page layouts. Built with Next.js, React, Tailwind CSS, shadcn/ui and radix ui. Typescript included.",
