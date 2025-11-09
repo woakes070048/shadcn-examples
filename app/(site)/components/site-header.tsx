@@ -23,12 +23,14 @@ export function SiteHeader() {
         <HeaderSearch />
         <div className="ml-auto flex items-center gap-1">
           <Button variant="ghost" asChild size="sm">
-            <Link href="/">Home</Link>
+            <Link href="https://shadcnuidashboard.com?utm_source=shadcnexamples" target="_blank">
+              Admin Dashboard
+            </Link>
           </Button>
           <Button variant="ghost" asChild size="sm">
-            <a href="https://shadcncomponents.dev?utm_source=shadcnexamples" target="_blank">
+            <Link href="https://shadcncomponents.dev?utm_source=shadcnexamples" target="_blank">
               Components
-            </a>
+            </Link>
           </Button>
           <Button variant="ghost" asChild size="sm">
             <a href="https://github.com/shadcn-examples/shadcn-examples" target="_blank">
